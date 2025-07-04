@@ -8,21 +8,20 @@ This project uses a trained machine learning model with a **Flask backend** and 
 
 ## 📂 Project Structure
 
-Banglore_House_Price_Predictor_Project/
-main.py # Flask backend application
-banglore_home_prices_model.pickle # Trained ML model
-columns.json # Feature columns used by the model
-House_price_prediction.ipynb # Notebook for training & saving the model
-templates/
-   -try.html # HTML frontend for the user interface
+- `main.py` – Flask backend application  
+- `banglore_home_prices_model.pickle` – Trained ML model  
+- `columns.json` – Feature columns used by the model  
+- `House_price_prediction.ipynb` – Jupyter Notebook for training and saving the model  
+- `templates/`  
+   - `try.html` – Frontend HTML file
 
 ## 🚀 Features
 
-Predicts house prices in Lakhs for various locations in Bangalore
-Dynamic form input: Location, BHK, Bathrooms, Total Sqft
-Real-time prediction using AJAX (without page reload)
-Stylish background and a green-colored result box showing predicted price
-Easily extendable to other cities/datasets
+1. Predicts house prices in Lakhs for various locations in Bangalore
+2. Dynamic form input: Location, BHK, Bathrooms, Total Sqft
+3. Real-time prediction using AJAX (without page reload)
+4. Stylish background and a green-colored result box showing predicted price
+5. Easily extendable to other cities/datasets
 
 ## 🛠️ Technologies Used
 
@@ -47,11 +46,11 @@ Deployment-Read - Flask Routing, Model Serving
 
 ##  Files Explained
 
-main.py: Flask app that serves the model and frontend
-banglore_home_prices_model.pickle: Saved trained model
-columns.json: List of features (columns) used for prediction
-House_price_prediction.ipynb: Notebook that loads data, trains model, and saves .pickle and .json
-templates/try.html: Frontend HTML file with form and style
+1. main.py: Flask app that serves the model and frontend
+2. banglore_home_prices_model.pickle: Saved trained model
+3. columns.json: List of features (columns) used for prediction
+4. House_price_prediction.ipynb: Notebook that loads data, trains model, and saves .pickle and .json
+5. templates/try.html: Frontend HTML file with form and style
 
 ## 📄 License
 
