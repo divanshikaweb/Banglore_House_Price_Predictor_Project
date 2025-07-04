@@ -9,21 +9,20 @@ This project uses a trained machine learning model with a **Flask backend** and 
 ## 📂 Project Structure
 
 Banglore_House_Price_Predictor_Project/
-├── main.py # Flask backend application
-├── banglore_home_prices_model.pickle # Trained ML model
-├── columns.json # Feature columns used by the model
-├── House_price_prediction.ipynb # Notebook for training & saving the model
-├── templates/
-│ └── try.html # HTML frontend for the user interface
+main.py # Flask backend application
+banglore_home_prices_model.pickle # Trained ML model
+columns.json # Feature columns used by the model
+House_price_prediction.ipynb # Notebook for training & saving the model
+templates/
+   -try.html # HTML frontend for the user interface
 
 ## 🚀 Features
 
-- Predicts house prices in Lakhs for various locations in Bangalore
-- Dynamic form input: Location, BHK, Bathrooms, Total Sqft
-- Real-time prediction using AJAX (without page reload)
-- Stylish background image with a semi-transparent prediction card
-- Clean green-colored result box showing predicted price
-- Easily extendable to other cities/datasets
+Predicts house prices in Lakhs for various locations in Bangalore
+Dynamic form input: Location, BHK, Bathrooms, Total Sqft
+Real-time prediction using AJAX (without page reload)
+Stylish background and a green-colored result box showing predicted price
+Easily extendable to other cities/datasets
 
 ## 🛠️ Technologies Used
 
